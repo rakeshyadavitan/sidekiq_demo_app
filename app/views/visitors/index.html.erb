@@ -1,0 +1,15 @@
+<%= form_tag "/visitors/contact" do |f| %>
+  <div>
+    <%= label_tag :name, "Name" %>
+    <%= text_field_tag(:name) %>
+  </div>
+  <div>
+    <%= label_tag :email, "Email" %>
+    <%= text_field_tag(:email) %>
+  </div>
+  <div>
+    <%= label_tag :message, "Message" %>
+    <%= text_area_tag(:message) %>
+  </div>
+  <%= submit_tag "Send Email" %>
+<% end %>
