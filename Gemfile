@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'sidekiq'
 # source ENV["SIDEKIQ_SOURCE_URL"] do
 #   gem 'sidekiq-pro'
